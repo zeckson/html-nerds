@@ -1,0 +1,205 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  width: 1440px;
+}
+
+.header {
+  width: 1160px;
+  min-height: 164px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+/*.grey-block{
+  width: 1160px;
+  height: 545px;
+  background-color: ghostwhite;
+}*/
+.header-menu {
+  width: 1160px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu li {
+  display: inline-block;
+  width: 110px;
+}
+
+.h-logo {
+  margin-right: auto;
+}
+
+.h-logo:hover {
+  opacity: 75%;
+}
+
+.h-logo:active {
+  opacity: 50%;
+}
+
+.link-active a:visited {
+  text-decoration: red underline;
+}
+
+.link-active a:hover {
+  color: red;
+}
+
+.link-active a:active {
+  color: black;
+  opacity: 50%;
+}
+
+.h-basket {
+  margin-left: auto;
+  text-align: right;
+}
+
+.h-basket img {
+  opacity: 50%;
+  padding-right: 15px;
+}
+
+.main {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.gallery {
+  width: 1160px;
+  height: 413px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.g-info {
+  width: 403px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.g-info button {
+  display: block;
+  width: 240px;
+  height: 50px;
+  color: white;
+  background-color: deeppink;
+  border: none;
+  outline: none;
+}
+.g-info button:hover{
+  background-color: darkred;
+}
+.g-info>button p:active{
+opacity: 50%;
+}
+.im-gallery {
+  width: 760px;
+}
+
+.asortiment {
+  width: 1160px;
+  min-height: 348px;
+  margin-top: 79px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.as-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.asortiment button {
+  border: none;
+  outline: none;
+  width: 160px;
+  height: 50px;
+}
+
+.a-saiti button {
+  color: white;
+  background-color: red;
+}
+
+.a-prilogeniya button {
+  color: white;
+  background-color: green;
+}
+
+.a-prezentacii button {
+  color: white;
+  background-color: yellow;
+}
+
+.about {
+  margin-top: 80px;
+  width: 1160px;
+  min-height: 528px;
+  display: flex;
+}
+
+.ab-text {
+  width: 732px;
+}
+
+.ab-text li {
+  padding-left: 50px;
+}
+
+.ab-present {
+  width: 364px;
+  margin-left: auto;
+}
+
+.ab-present table {
+  border-spacing: 10px;
+}
+
+.partner {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.map {
+  min-height: 420px;
+  width: 1160px;
+  position: relative;
+}
+
+.f-about {
+  width: 320px;
+  height: 315px;
+  background-color: ghostwhite;
+}
+
+.f-contact {
+  display: flex;
+  width: 1160px;
+  justify-content: space-between;
+}
+
+.f-contact:last-child {
+  flex-grow: 2;
+}
+
+.soc-icon {
+  opacity: 50%;
+}
+
+
