@@ -106,8 +106,8 @@ body {
     background-color: darkred;
 }
 
-.g-info button:active p {
-    opacity: 50%;
+.g-info button:active {
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .im-gallery {
