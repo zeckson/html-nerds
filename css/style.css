@@ -13,17 +13,12 @@ body {
 
 .header {
     width: 1160px;
-    min-height: 164px;
+    min-height: 112px;
     margin-right: auto;
     margin-left: auto;
-
+    background-color: #eeeeee;
 }
 
-/*.grey-block{
-  width: 1160px;
-  height: 545px;
-  background-color: ghostwhite;
-}*/
 .header-menu {
     width: 1160px;
     padding: 0px;
@@ -49,16 +44,16 @@ body {
     opacity: 50%;
 }
 
-.link-active a:visited {
-    text-decoration: underline solid red;
+.link-active:visited {
+    text-decoration: underline solid #fb565a;
 
 }
 
-.link-active a:hover {
-    color: red;
+.link-active:hover {
+    color: #f87f81;
 }
 
-.link-active a:active {
+.link-active:active {
     color: black;
     opacity: 50%;
 }
@@ -80,9 +75,10 @@ body {
 
 .gallery {
     width: 1160px;
-    height: 413px;
+    min-height: 435px;
     display: flex;
     margin: 0 auto;
+    background-color: #eeeeee;
 }
 
 .g-info {
@@ -97,16 +93,17 @@ body {
     width: 240px;
     height: 50px;
     color: white;
-    background-color: deeppink;
+    background-color: #fb565a;
     border: none;
     outline: none;
 }
 
 .g-info button:hover {
-    background-color: darkred;
+    background-color: #e74246;
 }
 
 .g-info button:active {
+    background-color: #d7373b;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -117,7 +114,7 @@ body {
 .asortiment {
     width: 1160px;
     min-height: 348px;
-    margin-top: 79px;
+    margin-top: 77px;
     display: flex;
     justify-content: space-between;
 }
@@ -137,21 +134,50 @@ body {
 
 .a-saiti button {
     color: white;
-    background-color: red;
+    background-color: #fb565a;
+    opacity: 70%;
+}
+.a-saiti button:hover{
+    background-color: #e74246;
+    opacity: 100%;
+}
+.a-saiti button:active{
+    background-color: #d7373b;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .a-prilogeniya button {
     color: white;
-    background-color: green;
+    background-color: #00ca74;
+    opacity: 70%;
+}
+.a-prilogeniya button:hover {
+    color: white;
+    background-color: #00bc6c;
+    opacity: 100%;
+}
+.a-prilogeniya button:active {
+    background-color: #00aa62;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .a-prezentacii button {
     color: white;
-    background-color: yellow;
+    background-color: #efc84a;
+}
+.a-prezentacii button:hover {
+    color: white;
+    background-color: #eab534;
+    opacity: 70%;
+}
+
+.a-prezentacii button:active{
+    color: rgba(0, 0, 0, 0.4);
+    background-color: #e5a722;
 }
 
 .about {
-    margin-top: 80px;
+    margin-top: 124px;
     width: 1160px;
     min-height: 528px;
     display: flex;
@@ -175,25 +201,38 @@ body {
 }
 
 .partner {
+    min-height: 182px;
+    margin-top: 80px;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.partner a:hover {
+.partner a{
+    opacity: 50%;
+}
+.partner a:hover{
+    opacity: 100%;
+}
+.partner a:active{
     opacity: 50%;
 }
 
-.footer{
+.footer {
     width: 1160px;
 }
+
 .map {
-    margin-top: 75px;
+    margin-top: 82px;
     min-height: 420px;
     width: 1160px;
     position: relative;
 }
-
+.map-marker{
+    position: absolute;
+    top: 100px;
+    right: 120px;
+}
 .f-about {
     position: absolute;
     width: 320px;
@@ -206,7 +245,8 @@ body {
     align-items: center;
 
 }
-.f-about button{
+
+.f-about button {
     border: none;
     outline: none;
     width: 220px;
@@ -215,20 +255,31 @@ body {
     background-color: red;
 }
 
-.footer2{
+.footer2 {
     width: 1160px;
     display: flex;
 }
 
-.f-contact{
+.f-contact {
     display: flex;
 
 }
-.f-contact li{
+
+.f-contact li {
     margin-left: 15px;
 }
 
-.f-text{
+.f-text {
     margin-left: auto;
     width: 550px;
+}
+
+.border{
+    width: 79px;
+    height: 79px;
+    background: grey;
+    border-radius: 50%;
+}
+.border:hover{
+    color: red;
 }
