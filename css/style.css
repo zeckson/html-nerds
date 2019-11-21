@@ -1,312 +1,313 @@
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .header {
-    width: 100%;
-    min-height: 12px;
-    background-color: #eeeeee;
+  width: 100%;
+  min-height: 12px;
+  background-color: #eeeeee;
 }
 
 .header-menu {
-    margin: auto;
-    width: 1160px;
-    padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: auto;
+  width: 1160px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
 .header-menu li {
-    display: inline-block;
-    width: 110px;
+  display: inline-block;
+  width: 110px;
 }
 
 .h-logo {
-    margin-right: auto;
+  margin-right: auto;
 }
 
 .h-logo:hover {
-    opacity: 75%;
+  opacity: 75%;
 }
 
 .h-logo:active {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 .link-active:visited {
-    text-decoration: underline solid #fb565a;
+  text-decoration: underline solid #fb565a;
 
 }
 
 .link-active:hover {
-    color: #f87f81;
+  color: #f87f81;
 }
 
 .link-active:active {
-    color: black;
-    opacity: 50%;
+  color: black;
+  opacity: 50%;
 }
 
 .h-basket {
-    margin-left: auto;
-    text-align: right;
+  margin-left: auto;
+  text-align: right;
 }
 
 .h-basket img {
-    opacity: 50%;
-    padding-right: 15px;
+  opacity: 50%;
+  padding-right: 15px;
 }
 
 .main {
-    width: 100%;
+  width: 100%;
 }
 
 .gallery {
-    width: 100%
-    min-height: 435px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #eeeeee;
+  width: 100%;
+  min-height: 435px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
 }
 
 .g-info {
 
-    width: 403px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  width: 403px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .g-info button {
-    display: block;
-    width: 240px;
-    height: 50px;
-    color: white;
-    background-color: #fb565a;
-    border: none;
-    outline: none;
+  display: block;
+  width: 240px;
+  height: 50px;
+  color: white;
+  background-color: #fb565a;
+  border: none;
+  outline: none;
 }
 
 .g-info button:hover {
-    background-color: #e74246;
+  background-color: #e74246;
 }
 
 .g-info button:active {
-    background-color: #d7373b;
-    color: rgba(0, 0, 0, 0.5);
+  background-color: #d7373b;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .im-gallery {
-    width: 760px;
+  width: 760px;
 }
 
 .asortiment {
-    width: 1160px;
-    min-height: 348px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 77px;
-    display: flex;
-    justify-content: space-between;
+  width: 1160px;
+  min-height: 348px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 77px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .as-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .asortiment button {
-    border: none;
-    outline: none;
-    width: 160px;
-    height: 50px;
+  border: none;
+  outline: none;
+  width: 160px;
+  height: 50px;
 }
 
 .a-saiti button {
-    color: white;
-    background-color: #fb565a;
-    opacity: 70%;
+  color: white;
+  background-color: #fb565a;
+  opacity: 70%;
 }
 
 .a-saiti button:hover {
-    background-color: #e74246;
-    opacity: 100%;
+  background-color: #e74246;
+  opacity: 100%;
 }
 
 .a-saiti button:active {
-    background-color: #d7373b;
-    color: rgba(0, 0, 0, 0.4);
+  background-color: #d7373b;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .a-prilogeniya button {
-    color: white;
-    background-color: #00ca74;
-    opacity: 70%;
+  color: white;
+  background-color: #00ca74;
+  opacity: 70%;
 }
 
 .a-prilogeniya button:hover {
-    color: white;
-    background-color: #00bc6c;
-    opacity: 100%;
+  color: white;
+  background-color: #00bc6c;
+  opacity: 100%;
 }
 
 .a-prilogeniya button:active {
-    background-color: #00aa62;
-    color: rgba(0, 0, 0, 0.4);
+  background-color: #00aa62;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .a-prezentacii button {
-    color: white;
-    background-color: #efc84a;
+  color: white;
+  background-color: #efc84a;
 }
 
 .a-prezentacii button:hover {
-    color: white;
-    background-color: #eab534;
-    opacity: 70%;
+  color: white;
+  background-color: #eab534;
+  opacity: 70%;
 }
 
 .a-prezentacii button:active {
-    color: rgba(0, 0, 0, 0.4);
-    background-color: #e5a722;
+  color: rgba(0, 0, 0, 0.4);
+  background-color: #e5a722;
 }
 
 .about {
 
-    width: 1160px;
-    margin-top: 124px;
-    margin-right: auto;
-    margin-left: auto;
-    min-height: 528px;
-    display: flex;
+  width: 1160px;
+  margin-top: 124px;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 528px;
+  display: flex;
 }
 
 .ab-text {
-    width: 732px;
+  width: 732px;
 }
 
 .ab-text li {
-    padding-left: 50px;
+  padding-left: 50px;
 }
 
 .ab-present {
-    width: 364px;
-    margin-left: auto;
+  width: 364px;
+  margin-left: auto;
 }
 
 .ab-present table {
-    border-spacing: 10px;
+  border-spacing: 10px;
 }
 
 .partner {
-    min-height: 182px;
-    margin-top: 80px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+  min-height: 182px;
+  margin-top: 80px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .partner a {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 .partner a:hover {
-    opacity: 100%;
+  opacity: 100%;
 }
 
 .partner a:active {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 .footer {
-    width: 1160px;
+  width: 1160px;
 }
 
 .map {
-    margin-top: 82px;
-    min-height: 420px;
-    width: 1160px;
-    position: relative;
+  margin-top: 82px;
+  min-height: 420px;
+  width: 1160px;
+  position: relative;
 }
 
 .map-marker {
-    position: absolute;
-    top: 100px;
-    right: 120px;
+  position: absolute;
+  top: 100px;
+  right: 120px;
 }
 
 .f-about {
-    position: absolute;
-    width: 320px;
-    height: 315px;
-    background-color: ghostwhite;
-    top: 50px;
-    left: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  position: absolute;
+  width: 320px;
+  height: 315px;
+  background-color: ghostwhite;
+  top: 50px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 
 .f-about button {
-    border: none;
-    outline: none;
-    width: 220px;
-    height: 50px;
-    color: white;
-    background-color: red;
+  border: none;
+  outline: none;
+  width: 220px;
+  height: 50px;
+  color: white;
+  background-color: red;
 }
-.f-about button:hover{
-    color: rgba(0, 0, 0, 0.4);
+
+.f-about button:hover {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .footer2 {
-    width: 1160px;
-    display: flex;
+  width: 1160px;
+  display: flex;
 }
 
 .f-contact {
-    display: flex;
+  display: flex;
 
 }
 
 .f-contact li {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .f-text {
-    margin-left: auto;
-    width: 550px;
+  margin-left: auto;
+  width: 550px;
 }
 
 .border {
-    width: 79px;
-    height: 79px;
-    background: grey;
-    border-radius: 50%;
-    display: block;
-    border: 1px solid ghostwhite;
+  width: 79px;
+  height: 79px;
+  background: grey;
+  border-radius: 50%;
+  display: block;
+  border: 1px solid ghostwhite;
 
 }
 
 .border img {
-    display: block;
-    margin: 38% auto;
+  display: block;
+  margin: 38% auto;
 }
 
 .border:hover {
-    background-color: red;
+  background-color: red;
 }
