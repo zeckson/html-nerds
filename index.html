@@ -5,6 +5,7 @@
   <title>Nerd's</title>
   <link href="css/style.css" rel="stylesheet">
   <link href="css/font.css" rel="stylesheet">
+  <link href="css/style-catalog.css" rel="stylesheet">
 </head>
 <body>
 <header class="header">
@@ -17,18 +18,45 @@
     <li class="h-basket"><a class="link-active" href=""><img src="img/cart-icon.svg" alt="cart-icon">корзина</a>
     </li>
   </ul>
-</header>
-<main class="main">
-  <div class="gallery">
-    <div class="g-info">
-      <h1>Долго, дорого,<br>скрупулезно.</h1>
-      <h5> математически выверенный дизайн<br>для вашего сайта или приложения</h5>
-      <button>Узнать больше</button>
+  <div class="slider">
+    <input type="radio" id="btn-1" name="toggle" checked>
+    <input type="radio" id="btn-2" name="toggle">
+    <input type="radio" id="btn-3" name="toggle">
+    <div class="slider-controls">
+      <label for="btn-1"></label>
+      <label for="btn-2"></label>
+      <label for="btn-3"></label>
     </div>
-    <div class="im-gallery">
-      <img src="img/nerds-index-slide1.png" alt="photo1">
+    <div class="slides">
+      <div class="slide">
+        <div class="slide-text">
+          <div class="slide-title">Долго, дорого, скрупулезно</div>
+          <p>Математически выверенный дизайн<br>
+            для вашего сайта или мобильного приложения.</p>
+          <a class="btn" href="#">Узнать больше</a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-text">
+          <div class="slide-title">Дорого, скрупулезно</div>
+          <p>Математически выверенный дизайн<br>
+            для вашего сайта или мобильного приложения.</p>
+          <a class="btn" href="#">Узнать больше</a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-text">
+          <div class="slide-title">Скрупулезно</div>
+          <p>Математически выверенный дизайн<br>
+            для вашего сайта или мобильного приложения.</p>
+          <a class="btn" href="#">Узнать больше</a>
+        </div>
+      </div>
     </div>
   </div>
+</header>
+<main class="main">
+
   <div class="asortiment">
     <div class="a-saiti as-block">
       <img src="img/a-saiti.jpg" alt="img1">

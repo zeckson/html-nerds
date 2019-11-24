@@ -1,0 +1,105 @@
+/*header-catalog*/
+
+.active3 {
+  border-bottom: red solid;
+}
+
+/*main*/
+
+.m-heading {
+  width: 100%;
+  min-height: 241px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+}
+
+.gallery-m {
+  margin: auto;
+}
+
+/*catalog-page*/
+.catalog-gallery {
+  width: 1160px;
+  margin: auto;
+}
+
+/*left-column*/
+/*slaider*/
+.c-custom {
+  width: 250px;
+}
+
+.range-controls {
+  position: relative;
+  width: 259px;
+  height: 41px;
+  padding-top: 39px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 4px;
+  height: 4px;
+  cursor: pointer;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  background: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.range-controls .toggle-min {
+  left: 20px;
+}
+
+.range-controls .toggle-max {
+  left: 195px;
+}
+
+.price-controls label {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+}
+
+.price-controls {
+  font-size: 0;
+}
+
+.max-price {
+  text-align: right;
+}
+
+.price-controls input {
+  width: 60px;
+  padding: 8px 10px;
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #283136;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+
