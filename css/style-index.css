@@ -11,9 +11,12 @@ body {
   margin: 0;
 }
 
+/*main*/
 
-
-
+main {
+  width: 1160px;
+  margin: auto;
+}
 
 /*main-assortiment-index*/
 

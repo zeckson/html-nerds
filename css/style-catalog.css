@@ -1,23 +1,4 @@
-/*header-catalog*/
 
-
-.m-heading {
-  width: 100%;
-  min-height: 241px;
-  background-color: #eeeeee;
-  display: flex;
-  justify-content: space-between;
-  vertical-align: center;
-}
-.gallery-m{
-  margin: auto;
-}
-
-/*main*/
-main {
-  width: 1160px;
-  margin: auto;
-}
 
 /*left-column*/
 
@@ -101,11 +82,12 @@ main {
   background: #f1f1f1;
 }
 
-.radio-conainer{
+.radio-conainer {
   display: flex;
   flex-direction: column;
 }
-.chekbox-container{
+
+.chekbox-container {
   display: flex;
   flex-direction: column;
 
