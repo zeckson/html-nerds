@@ -1,9 +1,15 @@
-
+.main-catalog {
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+}
 
 /*left-column*/
 
 .left-column {
-  width: 259px;
+  width: 319px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 /*slaider*/
@@ -91,4 +97,33 @@
   display: flex;
   flex-direction: column;
 
+}
+
+/*right-column*/
+.right-column {
+  width: 846px;
+  margin-left: 129px;
+}
+
+.sort {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.heading-sort {
+  width: 401px;
+  padding-left: ;
+}
+
+.c-gallery {
+  padding: 0px;
+  margin-top:0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.c-gallery li{
+  margin-top: 25px;
 }

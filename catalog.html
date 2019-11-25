@@ -25,67 +25,91 @@
   </div>
 </header>
 <main>
-  <div class="left-column">
-    <form class="slide-conteiner" action="catalog.html" method="get">
-      <div class="c-custom">
-        <h3>стоимость:</h3>
-        <div class="range-filter">
-          <div class="range-controls">
-            <div class="scale">
-              <div class="bar"></div>
+  <div class="main-catalog">
+    <div class="left-column">
+      <form class="slide-conteiner" action="catalog.html" method="get">
+        <div class="c-custom">
+          <h3>стоимость:</h3>
+          <div class="range-filter">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle toggle-min"></div>
+              <div class="toggle toggle-max"></div>
             </div>
-            <div class="toggle toggle-min"></div>
-            <div class="toggle toggle-max"></div>
-          </div>
-          <div class="price-controls">
-            <label class="min-price">от <input name="min-price" type="text" value="0"></label>
-            <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+            <div class="price-controls">
+              <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+              <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="radio-conainer">
-        <h3>сетка:</h3>
-        <label><input type="radio" name="option1" checked>адаптивная</label>
-        <label><input type="radio" name="option1">фиксированая</label>
-        <label><input type="radio" name="option1">резиновая</label>
-      </div>
-      <div class="chekbox-container">
-        <h3>особенности:</h3>
-        <label><input type="checkbox" name="slider">слайдер</label>
-        <label><input type="checkbox" name="block-advant" id="block-advant">блок преимуществ</label>
-        <label><input type="checkbox" name="news">новости</label>
-        <label><input type="checkbox" name="gallery">галлерея</label>
-        <label><input type="checkbox" name="basket">корзина</label>
-        <button class="range-button">показать</button>
-      </div>
-    </form>
-  </div>
-  <div class="right-column">
-    <div class="sort">
-      <div><h4>сортироватьж:</h4></div>
-      <div>по цене</div>
-      <div>по типу</div>
-      <div>по названию</div>
-      <button class="up"></button>
-      <button class="down"></button>
+        <div class="radio-conainer">
+          <h3>сетка:</h3>
+          <label><input type="radio" name="option1" checked>адаптивная</label>
+          <label><input type="radio" name="option1">фиксированая</label>
+          <label><input type="radio" name="option1">резиновая</label>
+        </div>
+        <div class="chekbox-container">
+          <h3>особенности:</h3>
+          <label><input type="checkbox" name="slider">слайдер</label>
+          <label><input type="checkbox" name="block-advant" id="block-advant">блок преимуществ</label>
+          <label><input type="checkbox" name="news">новости</label>
+          <label><input type="checkbox" name="gallery">галлерея</label>
+          <label><input type="checkbox" name="basket">корзина</label>
+          <button class="range-button">показать</button>
+        </div>
+      </form>
     </div>
-    <div class="c-gallery">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+    <div class="right-column">
+      <div class="sort">
+        <div class="heading-sort"><h3>сортировать:</h3></div>
+        <div>по цене</div>
+        <div>по типу</div>
+        <div>по названию</div>
+        <div class="sort-button">
+          <button class="up"></button>
+          <button class="down"></button>
+        </div>
+      </div>
+      <ul class="c-gallery">
+        <li><a href=""><img src="img/img-sedona.jpg" alt="maket-page"></a></li>
+        <li><a href=""><img src="img/img-pink.jpg" alt="maket-page"></a></li>
+        <li><a href=""><img src="img/img-barbershop.jpg" alt="maket-page"></a></li>
+        <li><a href=""><img src="img/img-mishka.jpg" alt="maket-page"></a></li>
+        <li><a href=""><img src="img/img-aplus.jpg" alt="maket-page"></a></li>
+        <li><a href=""><img src="img/img-kvast.jpg" alt="maket-page"></a></li>
       </ul>
-    </div>
-    <div class="pager-list">
-      <div></div>
-      <div></div>
-      <div></div>
+      <div class="pager-list">
+        <div><a href=""></a></div>
+        <div><a href=""></a></div>
+        <div><a href=""></a></div>
+      </div>
     </div>
   </div>
 </main>
+<footer class="footer>">
+  <div class="map">
+    <img src="img/map.jpg" alt="map">
+    <img class="map-marker" src="img/map-marker.png">
+    <div class="f-about">
+      <h4> nerd's design studio</h4>
+      <p>191186 Санкт-Петербург</p>
+      <p>ул Б.Конюшенная, д.19\8</p>
+      <p>тел.+7(812)00-00-0</p>
+      <button><h3>Напишите нам</h3></button>
+    </div>
+  </div>
+  <div class="footer2">
+    <ul class="f-contact">
+      <li><a class="border" href=""><img src="img/vk-icon.svg" alt="vk-logo"></a></li>
+      <li><a class="border" href=""><img src="img/fb-icon.svg" alt="face-logo"></a></li>
+      <li><a class="border" href=""><img src="img/insta-icon.svg" alt="inst-logo"></a></li>
+    </ul>
+    <div class="f-text">
+      <h1>Давайте дружить, это выгодно!</h1>скидка 10% для друзей из социальных сетей
+    </div>
+  </div>
+</footer>
 </body>
 </html>
