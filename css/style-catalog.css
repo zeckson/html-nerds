@@ -1,10 +1,5 @@
 /*header-catalog*/
 
-.active3 {
-  border-bottom: red solid;
-}
-
-/*main*/
 
 .m-heading {
   width: 100%;
@@ -14,18 +9,22 @@
   justify-content: space-between;
   vertical-align: center;
 }
-
-.gallery-m {
+.gallery-m{
   margin: auto;
 }
 
-/*catalog-page*/
-.catalog-gallery {
+/*main*/
+main {
   width: 1160px;
   margin: auto;
 }
 
 /*left-column*/
+
+.left-column {
+  width: 259px;
+}
+
 /*slaider*/
 .c-custom {
   width: 250px;
@@ -102,4 +101,12 @@
   background: #f1f1f1;
 }
 
+.radio-conainer{
+  display: flex;
+  flex-direction: column;
+}
+.chekbox-container{
+  display: flex;
+  flex-direction: column;
 
+}

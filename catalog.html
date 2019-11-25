@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>catalog</title>
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/font.css" rel="stylesheet">
+  <title>Nerd's</title>
+  <link href="css/style-index.css" rel="stylesheet">
   <link href="css/style-catalog.css" rel="stylesheet">
-
+  <link href="css/font.css" rel="stylesheet">
+  <link href="css/style-header.css" rel="stylesheet">
+  <link href="css/style-footer.css" rel="stylesheet">
 </head>
 <body>
 <header class="header">
   <ul class="header-menu">
-    <li class="h-logo"><a href=""><img src="img/nerds-logo.svg" alt="logo"></a></li>
-    <li class="h-studio"><a class="link-active" href="https://ya.ru">студия</a></li>
+    <li class="h-logo"><a href="index.html"><img src="img/nerds-logo.svg" alt="logo"></a></li>
+    <li class="h-studio"><a class="link-active" href="index.html">студия</a></li>
     <li class="h-client"><a class="link-active" href="">клиенты</a></li>
-    <li class="h-store"><a class="link-active active3" href="">магазин</a></li>
+    <li class="h-store"><a class="link-active active" href="catalog.html">магазин</a></li>
     <li class="h-kontakt"><a class="link-active" href="">контакты</a></li>
     <li class="h-basket"><a class="link-active" href=""><img src="img/cart-icon.svg" alt="cart-icon">корзина</a>
     </li>
@@ -24,9 +25,10 @@
   </div>
 </header>
 <main>
-  <div class="catalog-gallery">
-    <div class="c-custom">
-      <form action="form.php" method="GET">
+  <div class="left-column">
+    <form class="slide-conteiner" action="catalog.html" method="get">
+      <div class="c-custom">
+        <h3>стоимость:</h3>
         <div class="range-filter">
           <div class="range-controls">
             <div class="scale">
@@ -40,13 +42,48 @@
             <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
           </div>
         </div>
-
-        <!-- другие элементы формы -->
-
-      </form>
+      </div>
+      <div class="radio-conainer">
+        <h3>сетка:</h3>
+        <label><input type="radio" name="option1" checked>адаптивная</label>
+        <label><input type="radio" name="option1">фиксированая</label>
+        <label><input type="radio" name="option1">резиновая</label>
+      </div>
+      <div class="chekbox-container">
+        <h3>особенности:</h3>
+        <label><input type="checkbox" name="slider">слайдер</label>
+        <label><input type="checkbox" name="block-advant" id="block-advant">блок преимуществ</label>
+        <label><input type="checkbox" name="news">новости</label>
+        <label><input type="checkbox" name="gallery">галлерея</label>
+        <label><input type="checkbox" name="basket">корзина</label>
+        <button class="range-button">показать</button>
+      </div>
+    </form>
+  </div>
+  <div class="right-column">
+    <div class="sort">
+      <div><h4>сортироватьж:</h4></div>
+      <div>по цене</div>
+      <div>по типу</div>
+      <div>по названию</div>
+      <button class="up"></button>
+      <button class="down"></button>
     </div>
     <div class="c-gallery">
-
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="pager-list">
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
   </div>
 </main>
