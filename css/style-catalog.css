@@ -114,7 +114,6 @@
 
 .heading-sort {
   width: 401px;
-  padding-left: ;
 }
 
 .c-gallery {
@@ -125,5 +124,33 @@
   flex-wrap: wrap;
 }
 .c-gallery li{
-  margin-top: 25px;
+  margin-top: 60px;
+  position: relative;
+}
+
+
+.browser{
+  position: absolute;
+  margin-top: -40px;
+  opacity: 40%;
+}
+.c-gallery a:hover .browser{
+  opacity: 100%;
+}
+
+.browser-wind{
+  width: 360px;
+  height: 231px;
+  position: absolute;
+  top: 346px;
+  background-color: #eeeeee;
+  display: none;
+}
+.c-gallery a:hover .browser-wind{
+  display: block;
+}
+
+.wind-b{
+  width: 200px;
+  height: 50px;
 }
