@@ -33,7 +33,7 @@
   outline: none;
   width: 220px;
   height: 50px;
-  color: white;
+  color: rgba(255, 255, 255, 1);
   background-color: #fb565a;
   box-shadow: 0 3px 7px;
   border-radius: 5px;
@@ -41,7 +41,7 @@
 }
 
 .f-about button:hover {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .footer2 {

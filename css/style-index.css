@@ -41,55 +41,53 @@ main {
   outline: none;
   width: 160px;
   height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
 }
 
 .a-saiti button {
   color: white;
-  background-color: #fb565a;
-  opacity: 70%;
+  background-color: rgba(251, 86, 90, 0.9);
 }
 
 .a-saiti button:hover {
-  background-color: #e74246;
-  opacity: 100%;
+  background-color: rgba(231, 66, 70, 1);
 }
 
 .a-saiti button:active {
-  background-color: #d7373b;
+  background-color: rgba(215, 55, 59, 1);
   color: rgba(0, 0, 0, 0.4);
 }
 
 .a-prilogeniya button {
   color: white;
-  background-color: #00ca74;
-  opacity: 70%;
+  background-color: rgba(0, 202, 116, 0.9);
 }
 
 .a-prilogeniya button:hover {
   color: white;
-  background-color: #00bc6c;
-  opacity: 100%;
+  background-color: rgba(0, 188, 108, 1);
 }
 
 .a-prilogeniya button:active {
-  background-color: #00aa62;
+  background-color: rgba(0, 170, 98, 1);
   color: rgba(0, 0, 0, 0.4);
 }
 
 .a-prezentacii button {
   color: white;
-  background-color: #efc84a;
+  background-color: rgba(239, 200, 74, 0.9);
 }
 
 .a-prezentacii button:hover {
   color: white;
-  background-color: #eab534;
-  opacity: 70%;
+  background-color: rgba(234, 181, 52, 1);
+
 }
 
 .a-prezentacii button:active {
   color: rgba(0, 0, 0, 0.4);
-  background-color: #e5a722;
+  background-color: rgba(229, 167, 34, 1);
 }
 
 /*main-about-index*/

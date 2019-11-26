@@ -153,11 +153,22 @@
   margin-top: 25px;
   font-size: 12px;
   color: white;
+  background-color: rgba(251, 86, 90, 0.9);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  background: #fb565a;
-  border-radius: 3px;
+  border-radius: 5px;
+
+}
+
+.btn:hover {
+  background-color: rgba(231, 66, 70, 1);
+}
+
+.btn:active {
+  background-color: rgba(215, 55, 59, 1);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .slide:nth-child(1) {
