@@ -1,5 +1,5 @@
 .main-catalog {
-  width: 1160px;
+  width: 1161px;
   display: flex;
   justify-content: space-between;
 }
@@ -7,7 +7,7 @@
 /*left-column*/
 
 .left-column {
-  width: 319px;
+  width: 259px;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -17,9 +17,21 @@
   width: 250px;
 }
 
+.custom-h3 h3 {
+  margin: 0;
+}
+
+.custom-h3 {
+  margin-top: 60px;
+}
+
+.range-filter {
+  margin-top: 57px;
+}
+
 .range-controls {
   position: relative;
-  width: 259px;
+  width: 219px;
   height: 41px;
   padding-top: 39px;
   padding-left: 20px;
@@ -58,22 +70,29 @@
 }
 
 .range-controls .toggle-max {
-  left: 195px;
-}
-
-.price-controls label {
-  display: inline-block;
-  width: 50%;
-  font-size: 16px;
+  left: 155px;
 }
 
 .price-controls {
   font-size: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-.max-price {
-  text-align: right;
+.price-controls label {
+  width: 50%;
+  font-size: 16px;
 }
+
+.max-price{
+  margin-left: 15px;
+}
+
+.min-price {
+  margin: 0;
+}
+
+
 
 .price-controls input {
   width: 60px;
@@ -89,56 +108,72 @@
 }
 
 .radio-conainer {
+  margin-top: 57px;
   display: flex;
   flex-direction: column;
 }
 
 .chekbox-container {
+  margin-top: 57px;
   display: flex;
   flex-direction: column;
 
 }
 
+.range-button {
+  margin-top: 50px;
+}
+
 /*right-column*/
 .right-column {
   width: 846px;
-  margin-left: 129px;
+  margin-left: 140px;
 }
 
 .sort {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
 
+}
+
+.heading-sort h3 {
+  margin: 0;
 }
 
 .heading-sort {
+  margin-top: 60px;
   width: 401px;
 }
 
+.c-gallery ul {
+  margin: 0;
+}
+
 .c-gallery {
-  padding: 0px;
-  margin-top:0px;
+  padding: 0;
+  margin-top: 97px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.c-gallery li{
-  margin-top: 60px;
+
+.c-gallery li {
+  margin-bottom: 73px;
   position: relative;
 }
 
-
-.browser{
+.browser {
   position: absolute;
   margin-top: -40px;
   opacity: 40%;
 }
-.c-gallery a:hover .browser{
+
+.c-gallery a:hover .browser {
   opacity: 100%;
 }
 
-.browser-wind{
+.browser-wind {
   width: 360px;
   height: 231px;
   position: absolute;
@@ -146,11 +181,12 @@
   background-color: #eeeeee;
   display: none;
 }
-.c-gallery a:hover .browser-wind{
+
+.c-gallery a:hover .browser-wind {
   display: block;
 }
 
-.wind-b{
+.wind-b {
   width: 200px;
   height: 50px;
 }
