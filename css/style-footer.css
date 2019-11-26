@@ -66,11 +66,11 @@
 .border {
   width: 79px;
   height: 79px;
-  background: grey;
+  background-color: #eeeeee;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
   border-radius: 50%;
   display: block;
   border: 1px solid ghostwhite;
-
 }
 
 .border img {
@@ -79,6 +79,12 @@
 }
 
 .border:hover {
-  background-color: red;
+  background-color: rgba(231, 66, 70, 1);
+}
+.border:active{
+  background-color: rgba(215, 55, 59, 1);
+}
+.border:active img{
+  opacity: 40%;
 }
 
