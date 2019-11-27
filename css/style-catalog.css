@@ -133,10 +133,31 @@
   justify-content: space-around;
   align-items: flex-end;
 }
-.up{
-  background-image: url("../img/icon-down-dir.svg");
+.dn{
+  display: none;
+
+}
+.sort label{
+  margin-right: 15px;
+  cursor: pointer;
+}
+.down{
   width: 10px;
   height: 10px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.up{
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
 }
 .heading-sort h3 {
   margin: 0;
