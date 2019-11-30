@@ -28,7 +28,7 @@
 
 }
 
-.f-about button {
+.about-button {
   border: none;
   outline: none;
   width: 220px;
@@ -40,8 +40,63 @@
 
 }
 
-.f-about button:hover {
+.about-button:hover {
   color: rgba(255, 255, 255, 0.4);
+}
+
+
+.write-us {
+  min-width: 960px;
+  min-height: 560px;
+  margin: auto;
+  position: absolute;
+  background-color: rgb(129, 129, 129);
+  display: none;
+  z-index: 9999;
+  top: -100px;
+  left: 200px;
+}
+
+.write-us:target {
+  display: block;
+}
+
+.write-container {
+  width: 760px;
+  height: 434px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.heading-write-us {
+  width: 760px;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 67px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.y-name {
+  min-width: 360px;
+  min-height: 50px;
+  display: block;
+}
+
+.y-email {
+  min-width: 360px;
+  min-height: 50px;
+  display: block;
+}
+
+.y-message {
+  min-width: 760px;
+  min-height: 118px;
+  display: block;
 }
 
 .footer2 {
@@ -81,10 +136,12 @@
 .border:hover {
   background-color: rgba(231, 66, 70, 1);
 }
-.border:active{
+
+.border:active {
   background-color: rgba(215, 55, 59, 1);
 }
-.border:active img{
+
+.border:active img {
   opacity: 40%;
 }
 
