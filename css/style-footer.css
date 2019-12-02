@@ -44,7 +44,6 @@
   color: rgba(255, 255, 255, 0.4);
 }
 
-
 .write-us {
   min-width: 960px;
   min-height: 560px;
@@ -68,6 +67,12 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: auto;
+}
+
+.write-button {
+  min-width: 260px;
+  min-width: 260px;
+
 }
 
 .heading-write-us {
