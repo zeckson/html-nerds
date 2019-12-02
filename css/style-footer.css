@@ -49,11 +49,12 @@
   min-height: 560px;
   margin: auto;
   position: absolute;
-  background-color: rgb(129, 129, 129);
+  background-color: #eeeeee;
   display: none;
   z-index: 9999;
   top: -100px;
   left: 200px;
+  box-shadow: 0 20px 40px rgba(0, 1, 1, 0.7);
 }
 
 .write-us:target {
@@ -69,12 +70,6 @@
   margin: auto;
 }
 
-.write-button {
-  min-width: 260px;
-  min-width: 260px;
-
-}
-
 .heading-write-us {
   width: 760px;
   height: 28px;
@@ -84,6 +79,18 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 50px;
+}
+
+.closemodal {
+  opacity: 50%;
+}
+
+.closemodal:hover {
+  opacity: 100%;
+}
+
+.closemodal:active {
+  opacity: 50%;
 }
 
 .y-name {
@@ -102,6 +109,33 @@
   min-width: 760px;
   min-height: 118px;
   display: block;
+}
+
+.y-active {
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.y-active:hover {
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.y-active:focus {
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+.w-button {
+  width: 260px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: rgb(251, 86, 90);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
 }
 
 .footer2 {
