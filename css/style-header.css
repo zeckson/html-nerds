@@ -82,11 +82,51 @@
   width: 100%;
 }
 
+.slide-none {
+  display: none;
+}
+
 .slider {
   position: relative;
   width: 1160px;
-  height: 310px;
+  height: 431px;
   margin: 0 auto;
   background-color: #eeeeee;
 }
 
+.slider-button {
+  position: absolute;
+  left: 500px;
+  top: 350px;
+}
+
+.slide-grid{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.slide-text{
+  display: inline-block;
+  padding-top: 69px;
+
+}
+.slide-title{
+  font-family: robotomedium, sans-serif;
+  font-size: 55px;
+  line-height: 54px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 43px;
+}
+
+.slide-grid a{
+  display: inline-block;
+  width: 240px;
+  margin-top: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: white;
+  background-color: rgb(251, 86, 90);
+  border-radius: 5px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+}
