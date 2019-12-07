@@ -111,6 +111,43 @@
   flex-direction: column;
 }
 
+.left-radio-label {
+  padding-left: 39px;
+  margin-bottom: 15px;
+}
+
+.left-radio-input {
+  position: absolute;
+  -webkit-appearance: none;
+}
+
+.radio-fake {
+  width: 25px;
+  height: 25px;
+  margin-left: -39px;
+  position: absolute;
+  background-image: url("../img/radio-off.svg");
+}
+
+.left-radio-input:checked+.radio-fake{
+  opacity: 100%;
+  background-image: url("../img/radio-on.svg");
+}
+.left-radio-input + .radio-fake {
+  opacity: 50%;
+}
+
+.left-radio-input:hover + .radio-fake {
+  opacity: 100%;
+}
+
+.left-radio-input:focus:checked + .radio-fake {
+  opacity: 100%;
+}
+.left-radio-input:hover:disabled+.radio-fake{
+  opacity: 50%;
+}
+
 .chekbox-container {
   margin-top: 57px;
   display: flex;
