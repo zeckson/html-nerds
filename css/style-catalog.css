@@ -115,10 +115,44 @@
   margin-top: 57px;
   display: flex;
   flex-direction: column;
-
 }
 
+.left-check {
+  -webkit-appearance: none;
+  position: absolute;
+}
 
+.left-label {
+  height: 25px;
+  margin-bottom: 17px;
+  padding-left: 37px;
+}
+
+.check-fake {
+  width: 26px;
+  height: 23px;
+  margin-left: -37px;
+  position: absolute;
+  background: url("../img/checkbox-off.svg") no-repeat;
+  opacity: 50%;
+}
+
+.left-check:hover + .check-fake {
+  opacity: 100%;
+}
+
+.left-check:checked + .check-fake {
+  background-image: url("../img/checkbox-on1.svg");
+  opacity: 100%;
+}
+
+.left-check:disabled + .check-fake {
+  opacity: 30%;
+}
+
+.left-check:disabled:checked + .check-fake {
+  opacity: 30%;
+}
 
 .range-button {
   margin-top: 50px;
