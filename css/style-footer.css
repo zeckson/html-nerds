@@ -50,11 +50,11 @@
   margin: auto;
   position: absolute;
   background-color: #eeeeee;
-  display: none;
   z-index: 9999;
   top: -100px;
   left: 200px;
   box-shadow: 0 20px 40px rgba(0, 1, 1, 0.7);
+  display: none;
 }
 
 .write-us:target {
@@ -81,15 +81,18 @@
   margin-bottom: 50px;
 }
 
-.closemodal {
+.close-modal {
   opacity: 50%;
+  border: none;
+  background-color: transparent;
+  outline: none;
 }
 
-.closemodal:hover {
+.close-modal:hover {
   opacity: 100%;
 }
 
-.closemodal:active {
+.close-modal:active {
   opacity: 50%;
 }
 
