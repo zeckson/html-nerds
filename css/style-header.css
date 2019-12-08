@@ -26,6 +26,13 @@
   width: 110px;
 }
 
+.header-menu > li > a {
+  font-family: 'roboto-medium', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: black;
+}
+
 .h-logo {
   margin-right: auto;
 }
@@ -74,6 +81,10 @@
 
 .gallery-m {
   margin: auto;
+  font-family: robotomedium, sans-serif;
+  font-size: 55px;
+  line-height: 55px;
+  color: black;
 }
 
 /*slider-index-footer*/
@@ -118,17 +129,15 @@
 .slide-text {
   display: inline-block;
   padding-top: 69px;
-
 }
 
-.slide-title {
-  font-family: robotomedium, sans-serif;
-  font-size: 55px;
-  line-height: 54px;
-  color: rgb(0, 0, 0);
-  margin-bottom: 43px;
+.slide-none{
+  display: none;
 }
-
+.slide{
+  position: absolute;
+}
+/*
 .slider > label {
   position: absolute;
   display: none;
