@@ -57,6 +57,10 @@
   display: none;
 }
 
+.modal-show {
+  display: block;
+}
+
 .write-us:target {
   display: block;
 }

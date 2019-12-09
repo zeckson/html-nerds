@@ -139,9 +139,9 @@
       <p>191186 Санкт-Петербург</p>
       <p>ул Б.Конюшенная, д.19\8</p>
       <p>тел.+7(812)00-00-0</p>
-      <button class="about-button open-modal">Напишите нам</button>
+      <button class="about-button">Напишите нам</button>
     </div>
-    <div class="write-us modal">
+    <div class="write-us">
       <div class="heading-write-us">
         <div class="h-w-s">напишите нам</div>
         <button class="close-modal"><img src="img/close-cross.svg" alt="close-modal" width="22" height="22"></button>
@@ -169,8 +169,17 @@
   </div>
 </footer>
 <script>
-
-
+  var link = document.querySelector(".about-button");
+  var popup = document.querySelector(".write-us");
+  var close= document.querySelector(".close-modal");
+  link.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.add("modal-show");
+  });
+  close.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.remove("modal-show");
+  });
 </script>
 </body>
 </html>
