@@ -115,11 +115,12 @@ main {
 }
 
 .ab-text > ul > li::before {
+  content: "";
   width: 10px;
   height: 5px;
   display: inline-block;
   background-color: red;
-
+position: absolute;
 }
 
 .ab-present {
