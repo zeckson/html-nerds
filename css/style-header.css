@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   background-color: #eeeeee;
-  min-height: 115px;
+  min-height: 114px;
 }
 
 .active {
@@ -9,13 +9,15 @@
 }
 
 /*header-menu*/
-.header-navigation{
+.header-navigation {
   min-height: 65px;
-  padding-top: 45px;
+  padding-top: 49px;
   background-color: #eeeeee;
 }
-.header-navigation>ul{
+
+.header-navigation > ul {
 }
+
 .header-menu {
   width: 1160px;
   margin: auto;
@@ -71,7 +73,7 @@
   padding-right: 15px;
 }
 
-/*heading-page*/
+/*heading-page-catalog*/
 
 .m-heading {
   width: 100%;
@@ -99,27 +101,54 @@
 .slider {
   position: relative;
   width: 1160px;
-  height: 431px;
+  height: 415px;
   margin: 0 auto;
   background-color: #eeeeee;
 }
 
 .slider-button {
   position: absolute;
-  left: 500px;
-  top: 350px;
+  left: 480px;
+  top: 300px;
+  width: 200px;
+  height: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.slider-button i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background: white;
+  border: 5px solid white;
+  vertical-align: top;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-button .active {
+  background: #c1c1c1;
 }
 
 .slide-grid {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
 }
 
-.slide-grid a {
+.slide-text {
+  width: 400px;
+  margin-top: 64px;
+}
+
+.slide-text h1 {
+  margin: 0 0 25px 0;
+}
+
+.slide-text a {
   display: inline-block;
   width: 240px;
-  margin-top: 45px;
+  margin-top: 35px;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
@@ -129,25 +158,14 @@
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
 }
 
-.slide-text {
-  display: inline-block;
-  padding-top: 69px;
-
-}
-
-.slide-none{
-  display: none;
-}
-.slide{
-  position: absolute;
-}
-/*
-.slider > label {
+.slide-grid {
   position: absolute;
   display: none;
 }
 
-.slider-button > input:checked:focus .slide1 {
-  display: block;
+.slide-grid:nth-child(1) {
+  display: flex;
 }
+
+
 
