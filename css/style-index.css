@@ -172,12 +172,25 @@ main {
 }
 
 .partner {
+  width: 1160px;
   min-height: 180px;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
+  border-top: #eeeeee 2px solid;
+  border-bottom: #eeeeee 2px solid;
+  position: relative;
 }
-
+.partner>li::after{
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 50px;
+  background-color: #eeeeee;
+  position: absolute;
+  top: 75px;
+}
 .partner a {
   opacity: 50%;
 }
