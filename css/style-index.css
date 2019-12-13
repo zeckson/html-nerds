@@ -26,6 +26,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 76px;
+  padding-bottom: 81px;
   display: flex;
 }
 
@@ -99,7 +100,6 @@ main {
 .about {
   width: 1160px;
   min-height: 529px;
-  margin-top: 124px;
   margin-right: auto;
   margin-left: auto;
   border-top: #eeeeee 2px solid;
@@ -109,22 +109,26 @@ main {
 .ab-text {
   width: 660px;
   min-height: 368px;
-  position: relative;
   padding-top: 80px;
-  padding-bottom: 78px;
+  position: relative;
   display: flex;
   flex-direction: column;
 
 }
 
 .ab-text > h2 {
-  margin-top: -45px;
   letter-spacing: -1px;
-  margin-block-end: 10px;
+  margin-block-start: 0;
+  margin-block-end: 12px;
   writing-mode: horizontal-tb;
 }
 
-.ab-text li {
+.ab-text ul {
+  margin: 0;
+}
+
+.ab-text > ul > li {
+  margin-bottom: 31px;
 }
 
 .ab-text > ul > li::before {
@@ -138,21 +142,26 @@ main {
 
 .ab-present {
   width: 360px;
-  min-height: 460px;
+  min-height: 407px;
   padding-left: 140px;
-  padding-bottom: 85px;
+  padding-top: 40px;
+  padding-bottom: 40;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
-.table-caption {
-  margin-bottom: 25px;
-  padding-left: 50px;
+.ab-present > img {
+  min-height: 209px;
+  padding-bottom: 40px;
+}
+
+.table-caption > h4 {
+  margin-block-start: 0;
+  margin-block-end: 45px;
 }
 
 .index-tabel {
-  border-spacing: 15px;
+  border-spacing: 10px;
 }
 
 .tabel-td {
