@@ -110,10 +110,9 @@ main {
   width: 660px;
   min-height: 368px;
   padding-top: 80px;
-  position: relative;
   display: flex;
   flex-direction: column;
-
+position: relative;
 }
 
 .ab-text > h2 {
@@ -134,10 +133,14 @@ main {
 .ab-text > ul > li::before {
   content: "";
   position: absolute;
-  width: 10px;
-  height: 5px;
+  width: 25px;
+  height: 2px;
   display: inline-block;
   background-color: red;
+  left: 0;
+  margin-bottom: 50px;
+  top: 340px;
+
 }
 
 .ab-present {
