@@ -28,7 +28,8 @@ main {
   margin-top: 76px;
   display: flex;
 }
-.asortiment>div{
+
+.asortiment > div {
   margin-right: 100px;
 }
 
@@ -97,39 +98,48 @@ main {
 
 .about {
   width: 1160px;
+  min-height: 529px;
   margin-top: 124px;
   margin-right: auto;
   margin-left: auto;
-  min-height: 528px;
+  border-top: #eeeeee 2px solid;
   display: flex;
 }
 
 .ab-text {
-  width: 648px;
-  min-height: 460px;
-  padding-bottom: 70px;
+  width: 660px;
+  min-height: 368px;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 78px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
+}
+
+.ab-text > h2 {
+  margin-top: -45px;
+  letter-spacing: -1px;
+  margin-block-end: 10px;
+  writing-mode: horizontal-tb;
 }
 
 .ab-text li {
-  padding-left: 50px;
 }
 
 .ab-text > ul > li::before {
   content: "";
+  position: absolute;
   width: 10px;
   height: 5px;
   display: inline-block;
   background-color: red;
-position: absolute;
 }
 
 .ab-present {
   width: 360px;
   min-height: 460px;
-  padding-left: 144px;
+  padding-left: 140px;
   padding-bottom: 85px;
   display: flex;
   flex-direction: column;

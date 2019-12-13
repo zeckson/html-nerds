@@ -113,8 +113,9 @@ h1 {
 
 h2 {
   font-family: 'robotobold', sans-serif;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 45px;
+  line-height: 45px;
+  letter-spacing: 1px;
   color: black;
 }
 
