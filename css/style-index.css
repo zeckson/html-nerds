@@ -25,12 +25,15 @@ main {
   min-height: 348px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 77px;
+  margin-top: 76px;
   display: flex;
-  justify-content: space-between;
+}
+.asortiment>div{
+  margin-right: 100px;
 }
 
 .as-block {
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
