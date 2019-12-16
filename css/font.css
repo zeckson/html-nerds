@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(../fonts/roboto-black.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-blackitalic.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-bold.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-boldcondensed.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-condenseditalic.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-bolditalic.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-condensed.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-condenseditalic.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-italic.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-light.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-lightitalic.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-medium.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-mediumitalic.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-regular.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-thin.ttf);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/roboto-thinitalic.ttf);
+}
+
+@font-face {
+  font-family: 'roboto', sans-serif;
+  src: url(../fonts/roboto.woff2);
+}
+
+@font-face {
+  font-family: 'robotobold', sans-serif;
+  src: url(../fonts/robotobold.woff2);
+}
+
+@font-face {
+  font-family: 'robotomedium', sans-serif;
+  src: url(../fonts/robotomedium.woff2);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #61686c;
+  line-height: 24px;
+  letter-spacing: normal;
+}
+
+h1 {
+  font-family: 'robotomedium', sans-serif;
+  font-size: 55px;
+  line-height: 55px;
+  color: rgb(0, 0, 0);
+  margin: 0 0 43px 0 ;
+  letter-spacing: -1.5px;
+
+}
+
+h2 {
+  font-family: 'robotobold', sans-serif;
+  font-size: 45px;
+  line-height: 45px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+h3 {
+  font-family: 'robotobold', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}
+
+h4 {
+  font-family: 'robotobold', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+
+.header-menu>li>a{
+  font-family: robotomedium,sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+font-style: initial;
+}

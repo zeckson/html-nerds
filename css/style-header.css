@@ -1,0 +1,171 @@
+.header {
+  width: 100%;
+  background-color: #eeeeee;
+  min-height: 114px;
+}
+
+.active {
+  border-bottom: red solid;
+}
+
+/*header-menu*/
+.header-navigation {
+  min-height: 65px;
+  padding-top: 49px;
+  background-color: #eeeeee;
+}
+
+.header-navigation > ul {
+}
+
+.header-menu {
+  width: 1160px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-menu li {
+  display: inline-block;
+  width: 110px;
+}
+
+.header-menu > li > a {
+  font-family: 'roboto-medium', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: black;
+}
+
+.h-logo {
+  margin-right: auto;
+}
+
+.h-logo:hover {
+  opacity: 75%;
+}
+
+.h-logo:active {
+  opacity: 50%;
+}
+
+.link-active:visited {
+  text-decoration: underline solid #fb565a;
+}
+
+.link-active:hover {
+  color: #f87f81;
+}
+
+.link-active:active {
+  color: black;
+  opacity: 50%;
+}
+
+.h-basket {
+  margin-left: auto;
+  text-align: right;
+}
+
+.h-basket img {
+  opacity: 50%;
+  padding-right: 15px;
+}
+
+/*heading-page-catalog*/
+
+.m-heading {
+  width: 100%;
+  min-height: 241px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+}
+
+.gallery-m {
+  margin: auto;
+  font-family: robotomedium, sans-serif;
+  font-size: 55px;
+  line-height: 55px;
+  color: black;
+}
+
+/*slider-index-footer*/
+
+.main {
+  width: 100%;
+}
+
+.slider {
+  position: relative;
+  width: 1160px;
+  height: 415px;
+  margin: 0 auto;
+  background-color: #eeeeee;
+}
+
+.slider-button {
+  position: absolute;
+  left: 480px;
+  top: 300px;
+  width: 200px;
+  height: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.slider-button i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background: white;
+  border: 5px solid white;
+  vertical-align: top;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-button .active {
+  background: #c1c1c1;
+}
+
+.slide-grid {
+  display: flex;
+}
+
+.slide-text {
+  width: 400px;
+  margin-top: 64px;
+}
+
+.slide-text h1 {
+  margin: 0 0 25px 0;
+}
+
+.slide-text a {
+  display: inline-block;
+  width: 240px;
+  margin-top: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: white;
+  background-color: rgb(251, 86, 90);
+  border-radius: 5px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+}
+
+.slide-grid {
+  position: absolute;
+  display: none;
+}
+
+.slide-grid:nth-child(1) {
+  display: flex;
+}
+
+
+

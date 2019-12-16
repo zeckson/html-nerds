@@ -1,0 +1,385 @@
+.main-catalog {
+  width: 1161px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*left-column*/
+
+.left-column {
+  width: 259px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*slaider*/
+.c-custom {
+  width: 250px;
+}
+
+.custom-h3 h3 {
+  margin: 0;
+}
+
+.custom-h3 {
+  margin-top: 60px;
+}
+
+.range-filter {
+  margin-top: 57px;
+}
+
+.range-controls {
+  position: relative;
+  width: 219px;
+  height: 41px;
+  padding-top: 39px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 4px;
+  height: 4px;
+  cursor: pointer;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  background: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.range-controls .toggle-min {
+  left: 20px;
+}
+
+.range-controls .toggle-max {
+  left: 155px;
+}
+
+.price-controls {
+  font-size: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-controls label {
+  width: 50%;
+  font-size: 16px;
+}
+
+.max-price {
+  margin-left: 15px;
+}
+
+.min-price {
+  margin: 0;
+}
+
+.price-controls input {
+  width: 60px;
+  padding: 8px 10px;
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #283136;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+.radio-conainer {
+  margin-top: 57px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-radio-label {
+  padding-left: 39px;
+  margin-bottom: 15px;
+}
+
+.left-radio-input {
+  position: absolute;
+  -webkit-appearance: none;
+}
+
+.radio-fake {
+  width: 25px;
+  height: 25px;
+  margin-left: -39px;
+  position: absolute;
+  background-image: url("../img/radio-off.svg");
+}
+
+.left-radio-input + .radio-fake {
+  opacity: 50%;
+  background-image: url("../img/radio-off.svg");
+}
+
+.left-radio-input:hover + .radio-fake {
+  opacity: 100%;
+  background-image: url("../img/radio-off.svg");
+}
+
+.left-radio-input:checked + .radio-fake {
+  opacity: 100%;
+  background-image: url("../img/radio-on.svg");
+}
+
+.left-radio-input:disabled + .radio-fake {
+  opacity: 50%;
+  background-image: url("../img/radio-off.svg");
+}
+
+.chekbox-container {
+  margin-top: 57px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-check {
+  -webkit-appearance: none;
+  position: absolute;
+}
+
+.left-label {
+  height: 25px;
+  margin-bottom: 17px;
+  padding-left: 37px;
+}
+
+.check-fake {
+  width: 26px;
+  height: 23px;
+  margin-left: -37px;
+  position: absolute;
+  background: url("../img/checkbox-off.svg") no-repeat;
+  opacity: 50%;
+}
+
+.left-check:hover + .check-fake {
+  background-image: url("../img/checkbox-off.svg");
+  opacity: 100%;
+}
+
+.left-check:checked + .check-fake {
+  background-image: url("../img/checkbox-on2.svg");
+  opacity: 100%;
+}
+
+.left-check:disabled + .check-fake {
+  opacity: 30%;
+  background-image: url("../img/checkbox-off.svg");
+}
+
+.left-check:disabled:checked + .check-fake {
+  opacity: 30%;
+  background-image: url("../img/checkbox-on2.svg");
+}
+
+.left-container-button {
+  width: 259px;
+  height: 50px;
+  color: black;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+  margin-top: 48px;
+}
+
+/*right-column*/
+.right-column {
+  width: 846px;
+  margin-left: 140px;
+}
+
+.hs-style {
+  color: black;
+  opacity: 50%;
+}
+
+.hs-style:hover {
+  opacity: 75%;
+}
+
+.hs-style:active {
+  opacity: 100%;
+}
+
+.sort {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.dn {
+  display: none;
+}
+
+.sort label {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.down {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.up {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.heading-sort h3 {
+  margin: 0;
+}
+
+.heading-sort {
+  margin-top: 60px;
+  width: 401px;
+}
+
+.c-gallery ul {
+  margin: 0;
+}
+
+.c-gallery {
+  padding: 0;
+  margin-top: 97px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.c-gallery a {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.c-gallery li {
+  margin-bottom: 73px;
+  position: relative;
+}
+
+.browser {
+  position: absolute;
+  margin-top: -40px;
+  opacity: 40%;
+}
+
+.c-gallery a:hover .browser {
+  opacity: 100%;
+}
+
+.browser-wind {
+  width: 360px;
+  height: 231px;
+  position: absolute;
+  top: 346px;
+  background-color: #eeeeee;
+  display: none;
+
+}
+
+.c-gallery a:hover .browser-wind {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wind-b {
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: white;
+  opacity: 90%;
+  background-color: rgba(251, 86, 90, 1);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+}
+
+.wind-b:hover {
+  background-color: rgb(231, 66, 70);
+}
+
+.wind-b:active {
+  background-color: rgb(215, 55, 59);
+}
+
+.p-style {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: rgb(238, 238, 238);
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 15px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+}
+
+.p-style:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.p-style:active {
+  background-color: rgb(213, 213, 213);
+}
+
+/*.p-style-visit{
+  border: 2px solid rgb(238, 238, 238);
+  background-color: white;
+}*/
+.next-list {
+  width: 260px;
+  height: 50px;
+  display: inline-block;
+  outline: none;
+  border: none;
+  background-color: rgb(238, 238, 238);
+  border-radius: 5px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+}
+
+.next-list:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.next-list:active {
+  background-color: rgb(213, 213, 213);
+}
