@@ -87,7 +87,7 @@
         превыше креатива. Работаем не покладая рук, как роботы.</p>
       <h4>Выполняем заказы на разработку:</h4>
       <ul>
-        <li>Веб сайтов любой сложности</li>
+        <li>Веб сайтов любой сложностит и</li>
         <li>моютльных приложений для IOS и Android</li>
         <li>Слайдшоу и видео для корпоротивных призентаций</li>
       </ul>
@@ -166,9 +166,11 @@
   var link = document.querySelector(".about-button");
   var popup = document.querySelector(".write-us");
   var close = document.querySelector(".close-modal");
-  link.addEventListener("click", function (evt) {
-    evt.preventDefault();
+  var login = document.querySelector(".y-name");
+
+  link.addEventListener("click", function () {
     popup.classList.add("modal-show");
+    login.focus();
   });
   close.addEventListener("click", function (evt) {
     evt.preventDefault();
