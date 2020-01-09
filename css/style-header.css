@@ -32,7 +32,7 @@
 }
 
 .header-menu > li > a {
-  font-family: 'roboto-medium', sans-serif;
+  font-family: 'robotomedium', Arial, sans-serif;
   font-size: 16px;
   line-height: 30px;
   color: black;
@@ -86,7 +86,7 @@
 
 .gallery-m {
   margin: auto;
-  font-family: robotomedium, sans-serif;
+  font-family: robotomedium, Arial, sans-serif;
   font-size: 55px;
   line-height: 55px;
   color: black;
