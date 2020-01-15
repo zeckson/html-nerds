@@ -20,39 +20,31 @@ main {
 
 /*main-assortiment-index*/
 
-.asortiment {
+.services {
   width: 1160px;
-  min-height: 348px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 78px;
-  padding-bottom: 81px;
+  margin-top: 80px;
   display: flex;
 }
 
-.asortiment > div {
+.services > div {
   margin-right: 100px;
 }
 
-.a-saiti > h3 {
-  margin-bottom: 0;
-  margin-top: 7px;
-}
-
-.as-block {
+.service-block {
   width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.asortiment button {
-  border: none;
-  outline: none;
-  width: 160px;
-  height: 50px;
-  border-radius: 5px;
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+.service-block p {
+  margin-top: -5px;
+}
+
+.services a {
+  margin-top: 18px;
 }
 
 .saiti-order {
@@ -127,10 +119,11 @@ main {
 .about {
   width: 1160px;
   min-height: 529px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
+  margin-top: 80px;
   border-top: #eeeeee 2px solid;
   display: flex;
+  justify-content: space-between;
 }
 
 .ab-text {
@@ -144,17 +137,16 @@ main {
 
 .ab-text > h2 {
   letter-spacing: -1px;
-  margin-block-start: 0;
-  margin-block-end: 12px;
-  writing-mode: horizontal-tb;
+  margin-block-start: -7px;
+  margin-block-end: 18px;
 }
 
-.ab-text ul {
-  margin: 0;
+.ab-text > h4 {
+  margin-bottom: 10px;
 }
 
 .ab-text > ul > li {
-  margin-bottom: 31px;
+  margin-bottom: 23px;
   position: relative;
 }
 
@@ -173,7 +165,6 @@ main {
 .ab-present {
   width: 360px;
   min-height: 407px;
-  padding-left: 140px;
   padding-top: 40px;
   padding-bottom: 40;
   display: flex;
@@ -182,7 +173,7 @@ main {
 
 .ab-present > img {
   min-height: 209px;
-  padding-bottom: 40px;
+  padding-bottom: 35px;
 }
 
 .table-caption > h4 {
@@ -191,7 +182,9 @@ main {
 }
 
 .index-tabel {
-  border-spacing: 10px;
+  border-spacing: 2px;
+  margin-top: 9px;
+  margin-left: -2px;
 }
 
 .tabel-td {
@@ -203,24 +196,27 @@ main {
 
 .partner {
   width: 1160px;
-  min-height: 180px;
+  min-height: 183px;
   padding: 0;
   display: flex;
   justify-content: space-between;
   margin: auto;
+  margin-top: -5px;
   border-top: #eeeeee 2px solid;
   border-bottom: #eeeeee 2px solid;
   position: relative;
 }
-
+.partner>li{
+  display: inline-block;
+}
 .partner > li::after {
   content: "";
   display: inline-block;
   width: 3px;
-  height: 50px;
+  height: 52px;
   background-color: #eeeeee;
   position: absolute;
-  top: 75px;
+  top: 66px;
 }
 
 .partner a {
