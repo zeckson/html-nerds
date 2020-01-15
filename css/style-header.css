@@ -1,4 +1,4 @@
-.header {
+.main-header {
   width: 100%;
   background-color: #eeeeee;
   min-height: 114px;
@@ -9,20 +9,20 @@
 }
 
 /*header-menu*/
+.main-header-nav {
+  width: 1160px;
+  margin: auto;
+  position: relative;
+}
 
 .header-menu {
   width: 440px;
   height: 17px;
   margin: auto;
   padding-top: 81px;
-  padding-bottom: 35px;
+  padding-left: 0px;
   display: flex;
   justify-content: space-between;
-  padding-left: 0px;
-
-}
-
-.header-menu li {
 }
 
 .header-menu > li > a {
@@ -32,21 +32,18 @@
   color: black;
 }
 
-.h-logo {
+.header-logo {
+  position: absolute;
+  top: 57px;
   width: 159px;
   height: 65px;
-  margin-right: auto;
-  position: absolute;
-  left: 181px;
-  top: 58px;
-  z-index: 9999;
 }
 
-.h-logo:hover {
+.header-logo:hover {
   opacity: 75%;
 }
 
-.h-logo:active {
+.header-logo:active {
   opacity: 50%;
 }
 
@@ -65,8 +62,12 @@
 
 .h-basket {
   position: absolute;
-  right: 10px;
-  top: px;
+  right: 1px;
+  top: 82px;
+  font-family: 'robotomedium', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
 }
 
 .h-basket img {
@@ -74,43 +75,18 @@
   padding-right: 15px;
 }
 
-/*heading-page-catalog*/
-
-.m-heading {
-  width: 100%;
-  min-height: 241px;
-  background-color: #eeeeee;
-  display: flex;
-  justify-content: space-between;
-  vertical-align: center;
-}
-
-.gallery-m {
-  margin: auto;
-  font-family: robotomedium, Arial, sans-serif;
-  font-size: 55px;
-  line-height: 55px;
-  color: black;
-}
-
-/*slider-index-footer*/
-
-.main {
-  width: 100%;
-}
-
 .slider {
   position: relative;
   width: 1160px;
-  height: 415px;
-  margin: 0 auto;
+  min-height: 431px;
+  margin: 25px auto;
   background-color: #eeeeee;
 }
 
 .slider-button {
   position: absolute;
   left: 480px;
-  top: 300px;
+  top: 316px;
   width: 200px;
   height: 10px;
   text-align: center;
@@ -135,11 +111,12 @@
 
 .slide-grid {
   display: flex;
+  min-height: 431px;
 }
 
 .slide-text {
   width: 400px;
-  margin-top: 64px;
+  margin-top: 80px;
 }
 
 .slide-text h1 {
@@ -167,6 +144,26 @@
 .slide-grid:nth-child(1) {
   display: flex;
 }
+
+/*heading-page-catalog*/
+
+.m-heading {
+  width: 100%;
+  min-height: 241px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+}
+
+.gallery-m {
+  margin: auto;
+  font-family: robotomedium, Arial, sans-serif;
+  font-size: 55px;
+  line-height: 55px;
+  color: black;
+}
+
 
 
 

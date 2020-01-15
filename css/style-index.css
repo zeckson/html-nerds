@@ -20,6 +20,10 @@ main {
 
 /*main-assortiment-index*/
 
+.main {
+  width: 100%;
+}
+
 .asortiment {
   width: 1160px;
   min-height: 348px;
