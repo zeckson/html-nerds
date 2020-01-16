@@ -39,8 +39,15 @@ main {
   justify-content: space-around;
 }
 
+.service-block h3 {
+  margin-top: 26px;
+  margin-bottom: 21px;
+  letter-spacing: 0.05px;
+}
+
 .service-block p {
   margin-top: -5px;
+  letter-spacing: 0.1px;
 }
 
 .services a {
@@ -59,7 +66,7 @@ main {
 }
 
 .order-fontsize {
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .saiti-order:hover {
@@ -118,9 +125,9 @@ main {
 
 .about {
   width: 1160px;
-  min-height: 529px;
   margin: auto;
   margin-top: 80px;
+  margin-bottom: 35px;
   border-top: #eeeeee 2px solid;
   display: flex;
   justify-content: space-between;
@@ -136,9 +143,12 @@ main {
 }
 
 .ab-text > h2 {
-  letter-spacing: -1px;
-  margin-block-start: -7px;
-  margin-block-end: 18px;
+  margin-top: -7px;
+  margin-bottom: 0;
+}
+
+.ab-text p {
+  margin-top: 35px;
 }
 
 .ab-text > h4 {
@@ -177,14 +187,11 @@ main {
 }
 
 .table-caption > h4 {
-  margin-block-start: 0;
-  margin-block-end: 45px;
+  margin-top: 0;
 }
 
 .index-tabel {
-  border-spacing: 2px;
-  margin-top: 9px;
-  margin-left: -2px;
+  margin-top: 25px;
 }
 
 .tabel-td {
@@ -194,29 +201,50 @@ main {
   color: black;
 }
 
+.index-tabel tr:last-child td {
+  width: 90px;
+}
+
+.tabel-td sup {
+  font-size: 28px;
+}
+
+.index-tabel p {
+  margin-top: 26px;
+}
+
 .partner {
   width: 1160px;
-  min-height: 183px;
+  margin: auto;
   padding: 0;
   display: flex;
   justify-content: space-between;
-  margin: auto;
-  margin-top: -5px;
+
   border-top: #eeeeee 2px solid;
   border-bottom: #eeeeee 2px solid;
+}
+
+.partner > li {
+  display: inline-block;
+  width: 260px;
+  min-height: 180px;
+  margin-right: 40px;
   position: relative;
 }
-.partner>li{
-  display: inline-block;
-}
+
 .partner > li::after {
   content: "";
-  display: inline-block;
-  width: 3px;
+  display: block;
+  width: 2px;
   height: 52px;
   background-color: #eeeeee;
   position: absolute;
   top: 66px;
+  left: 280px;
+}
+
+.partner > li:last-child::after {
+  display: none;
 }
 
 .partner a {

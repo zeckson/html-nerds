@@ -28,22 +28,23 @@ h1 {
   line-height: 55px;
   color: rgb(0, 0, 0);
   margin: 0 0 43px 0;
-  letter-spacing: -1.5px;
+  letter-spacing: normal;
 
 }
 
 h2 {
-  font-family: 'robotobold', Arial, sans-serif;
+  font-family: 'robotomedium', Arial, sans-serif;
   font-size: 45px;
   line-height: 45px;
-  letter-spacing: 1px;
-  color: black;
+  letter-spacing: normal;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'robotobold', Arial, sans-serif;
-  font-size: 28px;
-  line-height: 20px;
+  font-size: 24px;
+  line-height: 30px;
   color: black;
 }
 
