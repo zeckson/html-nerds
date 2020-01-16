@@ -127,7 +127,7 @@ main {
   width: 1160px;
   margin: auto;
   margin-top: 80px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   border-top: #eeeeee 2px solid;
   display: flex;
   justify-content: space-between;
@@ -176,7 +176,7 @@ main {
   width: 360px;
   min-height: 407px;
   padding-top: 40px;
-  padding-bottom: 40;
+  padding-bottom: 33px;
   display: flex;
   flex-direction: column;
 }

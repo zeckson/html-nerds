@@ -168,16 +168,16 @@ font-size: 19px;
 
 .f-contact {
   display: flex;
-
 }
 
 .f-contact li {
-  margin-left: 15px;
 }
 
 .f-text {
-  margin-left: 120px;
   width: 740px;
+}
+.f-text p:first-child{
+  letter-spacing: 0.6px;
 }
 
 .border {
