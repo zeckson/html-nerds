@@ -141,10 +141,11 @@ main {
 /*main-about-index*/
 
 .about {
+  box-sizing: border-box;
   width: 1160px;
   margin: auto;
   margin-top: 80px;
-  margin-bottom: 15px;
+  margin-bottom: 21px;
   border-top: #eeeeee 2px solid;
   display: flex;
   justify-content: space-between;
@@ -219,9 +220,7 @@ main {
 
 .index-tabel {
   margin-top: 25px;
-
 }
-
 
 .tabel-td {
   padding-right: 11px;
@@ -251,7 +250,6 @@ main {
   padding: 0;
   display: flex;
   justify-content: space-between;
-
   border-top: #eeeeee 2px solid;
   border-bottom: #eeeeee 2px solid;
 }
