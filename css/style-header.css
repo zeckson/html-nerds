@@ -13,7 +13,13 @@
   position: relative;
   width: 1160px;
   margin: auto;
-  padding-top: 74px;
+  padding-top: 75px;
+}
+
+.main-header-nav a:last-child {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .header-menu {
@@ -24,16 +30,30 @@
   justify-content: space-between;
 }
 
+.header-menu > li:first-child {
+  margin-left: 2px;
+}
+
+.header-menu > li:nth-child(2) {
+  padding-left: 2px;
+}
+
+.header-menu > li:nth-child(3) {
+  padding-left: 5px;
+}
+
 .header-menu > li > a {
   font-family: 'robotomedium', Arial, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
   color: black;
+  text-transform: uppercase;
 }
 
 .header-logo {
   position: absolute;
   top: 49px;
+  left: 1px;
   z-index: 2;
   width: 159px;
   height: 49px;
@@ -62,8 +82,8 @@
 
 .h-basket {
   position: absolute;
-  right: 1px;
   top: 74px;
+  right: 0px;
   font-family: 'robotomedium', Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
@@ -72,7 +92,7 @@
 
 .h-basket img {
   opacity: 50%;
-  padding-right: 15px;
+  padding-right: 24px;
 }
 
 .slider {
@@ -85,7 +105,7 @@
 
 .slider-button {
   position: absolute;
-  left: 480px;
+  left: 481px;
   top: 316px;
   width: 200px;
   height: 10px;
@@ -121,17 +141,19 @@
 
 .slide-text p {
   margin-top: 26px;
+  letter-spacing: 0.1px;
 }
 
 .text-btn p {
   margin-top: 12px;
+  text-transform: uppercase;
 }
 
 .slide-text a {
   display: inline-block;
   width: 240px;
   height: 50px;
-  margin-top: 25px;
+  margin-top: 23px;
   text-align: center;
   color: white;
   background-color: rgb(251, 86, 90);
