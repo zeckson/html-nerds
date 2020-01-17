@@ -188,7 +188,10 @@
   line-height: 55px;
   color: black;
 }
-
+.gallery-m h1{
+  margin-bottom: 13px;
+  letter-spacing: 0.1px;
+}
 
 
 
