@@ -211,18 +211,25 @@ main {
 }
 
 .table-caption > h4 {
+  margin-left: 17px;
   margin-top: 0;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
 }
 
 .index-tabel {
   margin-top: 25px;
+
 }
 
+
 .tabel-td {
+  padding-right: 11px;
+  margin-left: -2px;
   font-family: 'robotobold', sans-serif;
   font-size: 45px;
-  line-height: 11px;
-  color: black;
+  line-height: 10.06px;
+  color: rgb(0, 0, 0);
 }
 
 .index-tabel tr:last-child td {
@@ -234,7 +241,8 @@ main {
 }
 
 .index-tabel p {
-  margin-top: 26px;
+  margin-top: 29px;
+  line-height: 22.2px;
 }
 
 .partner {
