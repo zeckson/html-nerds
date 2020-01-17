@@ -135,13 +135,14 @@
 }
 
 .slide-text h1 {
-  margin: 0 0 25px 0;
-  letter-spacing: 0.2px;
+  margin-top: -2px;
+  letter-spacing: 0.05px;
 }
 
 .slide-text p {
-  margin-top: 26px;
-  letter-spacing: 0.1px;
+  margin-top: -15px;
+  margin-left: 1px;
+  letter-spacing: 0.02px;
 }
 
 .text-btn p {
