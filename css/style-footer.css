@@ -29,7 +29,7 @@
 
 .f-about p:first-child {
   font-size: 19px;
-  margin-top: 50px;
+  margin-top: 56px;
   margin-left: -37px;
   letter-spacing: -0.9px;
 }
@@ -37,7 +37,6 @@
 .f-about p:nth-child(2) {
   width: 214px;
   font-size: 16px;
-  margin-top: 5px;
   margin-bottom: -10px;
 }
 
@@ -182,11 +181,16 @@
 
 .f-text {
   width: 740px;
-  margin-left: 145px;
+  margin-left: 140px;
 }
 
 .f-text p:first-child {
-  letter-spacing: 0.6px;
+  margin-top: 18px;
+  margin-bottom: -6px;
+  letter-spacing: 0.5px;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
 }
 
 .border {
