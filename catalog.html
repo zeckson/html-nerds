@@ -50,32 +50,32 @@
           <h3>сетка:</h3>
           <label class="left-radio-label"><input class="left-radio-input" type="radio" name="option1">
             <div class="radio-fake"></div>
-            адаптивная</label>
+            Адаптивная</label>
           <label class="left-radio-label"><input class="left-radio-input" type="radio" name="option1" checked>
             <div class="radio-fake"></div>
-            фиксированая</label>
+            Фиксированная</label>
           <label class="left-radio-label"><input class="left-radio-input" type="radio" name="option1" disabled>
             <div class="radio-fake"></div>
-            резиновая</label>
+            Резиновая</label>
         </div>
         <div class="chekbox-container">
           <h3>особенности:</h3>
           <label class="left-label"><input class="left-check" type="checkbox" name="slider" checked>
             <div class="check-fake"></div>
-            слайдер</label>
+            Слайдер</label>
           <label class="left-label"><input class="left-check" type="checkbox" name="block-advant"
                                            id="block-advant">
             <div class="check-fake"></div>
-            блок преимуществ</label>
+            Блок преимуществ</label>
           <label class="left-label"><input class="left-check" type="checkbox" name="news">
             <div class="check-fake"></div>
-            новости</label>
+            Новости</label>
           <label class="left-label"><input class="left-check" type="checkbox" name="gallery" disabled>
             <div class="check-fake"></div>
-            галлерея</label>
+            Галерея</label>
           <label class="left-label"><input class="left-check" type="checkbox" name="basket" checked disabled>
             <div class="check-fake"></div>
-            корзина</label>
+            Корзина</label>
           <input class="left-container-button" type="submit" name="left-column-button" value="показать">
         </div>
       </form>
@@ -140,21 +140,20 @@
 </main>
 <footer class="footer>">
   <div class="map">
-    <img src="img/map.jpg" alt="map">
-    <img class="map-marker" src="img/map-marker.png">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533238!2d30.320858715897256!3d59.938716481876206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1578589062869!5m2!1sru!2sru"
+      width="1160" height="420" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <img class="map-marker" src="img/map-marker.png" alt="check-map">
     <div class="f-about">
-      <h4> nerd's design studio</h4>
-      <br>191186 Санкт-Петербург</br>
-      <br>ул Б.Конюшенная, д.19\8</br>
-      <br>тел.+7(812)00-00-0</br>
-      <a href="#openmodal" class="openmodal">
-        <button class="about-button">Напишите нам</button>
-      </a>
+      <p>NЁRDS DESIGN STUDIO</p>
+      <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <p>тел. +7 (812) 275-75-75</p>
+      <button class="about-button">Напишите нам</button>
     </div>
-    <div id="openmodal" class="write-us">
+    <div class="write-us">
       <div class="heading-write-us">
         <div class="h-w-s">напишите нам</div>
-        <a href="#close" class="closemodal"><img src="img/close-cross.svg"></a>
+        <button class="close-modal"><img src="img/close-cross.svg" alt="close-modal" width="22" height="22"></button>
       </div>
       <form class="write-container">
         <label>ваше имя:<input class="y-name y-active" type="text" name="your-name"
@@ -173,9 +172,25 @@
       <li><a class="border" href=""><img src="img/insta-icon.svg" alt="inst-logo"></a></li>
     </ul>
     <div class="f-text">
-      <h1>Давайте дружить, это выгодно!</h1>скидка 10% для друзей из социальных сетей
+      <p>Давайте дружить, это выгодно!</p>
+      <p>Скидка 10% для друзей из социальных сетей.</p>
     </div>
   </div>
 </footer>
+<script>
+  var link = document.querySelector(".about-button");
+  var popup = document.querySelector(".write-us");
+  var close = document.querySelector(".close-modal");
+  var login = document.querySelector(".y-name");
+
+  link.addEventListener("click", function () {
+    popup.classList.add("modal-show");
+    login.focus();
+  });
+  close.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.remove("modal-show");
+  });
+</script>
 </body>
 </html>
