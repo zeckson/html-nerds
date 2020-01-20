@@ -3,7 +3,7 @@
 }
 
 .map {
-  width: 1440px;
+  width: 1160px;
   padding-top: 77px;
   margin: auto;
   position: relative;
@@ -11,8 +11,8 @@
 
 .map-marker {
   position: absolute;
-  top: 78px;
-  right: 563px;
+  top: 96px;
+  right: 397px;
 }
 
 .f-about {
@@ -21,7 +21,7 @@
   height: 309px;
   background-color: ghostwhite;
   top: 131px;
-  left: 141px;
+  left: 1px;
   display: flex;
   flex-direction: column;
   align-items: center;

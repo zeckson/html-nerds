@@ -275,8 +275,9 @@
 }
 
 .c-gallery {
+  width: 760px;
   padding: 0;
-  margin-top: 97px;
+  margin-top: 92px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
