@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto.woff2") format("woff2"),
+  url("../fonts/roboto.woff") format("woff");
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+}
+
+header {
+  background-color: #eee;
+  min-height: 545px;
+}
+
+.centered {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav {
+  min-height: 112px;
+  padding-top: 49px;
+
+  display: flex;
+}
+
+.navigation {
+  padding-top: 13px;
+  padding-left: 201px;
+
+  list-style: none;
+}
+
+.navigation li {
+  margin-right: 43px;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+}
+
+.navigation li:last-child {
+  margin-left: 237px;
+  margin-right: 0;
+}
+
+.basket {
+  position: relative;
+}
+
+.basket::before {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: -40px;
+  width: 15px;
+  height: 15px;
+
+  background: #a6a6a6 no-repeat;
+  -webkit-mask-image: url('../img/cart-icon.svg');
+  mask-image: url('../img/cart-icon.svg');
+}
+
+.promos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo {
+  width: 400px;
+}
+
+.promo_img {
+  /* width: 760px; */
+  /* box-sizing: border-box; */
+  padding-top: 14px;
+  padding-right: 31px;
+}
