@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto.woff2") format("woff2"),
@@ -16,6 +18,7 @@
   url("../fonts/robotobold.woff") format("woff");
 }
 
+/* Base styles */
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
@@ -39,6 +42,22 @@ h3 {
   color: black;
   font-weight: bold;
 }
+
+.button {
+  box-sizing: border-box;
+  display: inline-block;
+  min-height: 50px;
+  padding: 14px 40px 7px 40px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #fb565a;
+  color: white;
+  font-family: "Roboto Medium", Arial, sans-serif;
+  border-radius: 4px;
+}
+
+/*Header styles start*/
 
 header {
   background-color: #eee;
@@ -116,24 +135,14 @@ nav {
   padding-right: 31px;
 }
 
-.button {
-  box-sizing: border-box;
-  display: inline-block;
-  min-height: 50px;
-  /* min-width: 200px; */
-  padding: 14px 40px 7px 40px;
-  text-decoration: none;
-  text-transform: uppercase;
-  background-color: #fb565a;
-  color: white;
-  font-family: "Roboto Medium", Arial, sans-serif;
-  border-radius: 4px;
-}
-
 .more {
   margin-top: 23px;
   padding: 14px 56px 7px 53px;
 }
+
+/* Header styles end */
+
+/* Main block start */
 
 .types {
   box-sizing: border-box;
@@ -172,3 +181,5 @@ nav {
 .yellow {
   background-color: #efc84a;
 }
+
+/* Main block end */
