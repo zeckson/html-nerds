@@ -206,6 +206,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding-top: 32px;
+  padding-bottom: 48px;
 }
 
 .about-left {
@@ -260,9 +261,9 @@ nav {
 }
 
 .about-right table {
-    margin-top: 32px;
-    border-spacing: 0 0;
-    border-collapse: collapse;
+  margin-top: 32px;
+  border-spacing: 0 0;
+  border-collapse: collapse;
 }
 
 .about-right th {
@@ -277,5 +278,42 @@ nav {
   text-align: left;
   line-height: 21px;
 }
+
+.customers {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+  margin-top: -8px;
+  margin-bottom: -14px;
+}
+
+.customers li {
+  position: relative;
+}
+
+.customers li::after {
+  content: '';
+  position: absolute;
+  top: 65px;
+  left: -21px;
+  width: 2px;
+  height: 50px;
+  background-color: #eee;
+}
+
+.customers li:nth-child(1)::after {
+  display: none;
+}
+
+.customers a img {
+  opacity: 0.5;
+}
+
+.customers a:hover img {
+  opacity: 1;
+}
+
+
 
 /* Main block end */
