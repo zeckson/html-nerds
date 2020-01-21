@@ -10,6 +10,12 @@
   url("../fonts/robotomedium.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../fonts/robotobold.woff2") format("woff2"),
+  url("../fonts/robotobold.woff") format("woff");
+}
+
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
@@ -24,6 +30,14 @@ h1 {
   line-height: 55px;
   color: black;
   font-weight: normal;
+}
+
+h3 {
+  font-family: "Roboto Bold", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color: black;
+  font-weight: bold;
 }
 
 header {
@@ -106,10 +120,8 @@ nav {
   box-sizing: border-box;
   display: inline-block;
   min-height: 50px;
-  min-width: 200px;
-  padding: 4px 40px;
-
-
+  /* min-width: 200px; */
+  padding: 14px 40px 7px 40px;
   text-decoration: none;
   text-transform: uppercase;
   background-color: #fb565a;
@@ -121,4 +133,42 @@ nav {
 .more {
   margin-top: 23px;
   padding: 14px 56px 7px 53px;
+}
+
+.types {
+  box-sizing: border-box;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 80px 0 0;
+  list-style: none;
+}
+
+.types li {
+  width: 300px;
+  /* word-spacing: 1.25px; */
+}
+
+.types h3 {
+  margin-top: 20px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.types p {
+  width: 250px;
+  margin-top: 14px;
+}
+
+.order {
+  margin-top: 16px;
+}
+
+.green {
+  background-color: #00ca74;
+}
+
+.yellow {
+  background-color: #efc84a;
 }
