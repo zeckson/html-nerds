@@ -314,6 +314,61 @@ nav {
   opacity: 1;
 }
 
+.map {
+  height: 416px;
+  margin: 0 auto;
+  padding-top: 140px;
+
+  background-image: url('../img/map.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.contacts {
+  box-sizing: border-box;
+  padding: 33px 33px 33px 51px;
+  width: 320px;
+  height: 308px;
+  margin-top: -16px;
+  background-color: white;
+}
+
+.contacts h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 23px;
+}
+
+.contacts p {
+  margin-top: 6px;
+  line-height: 19px;
+  margin-bottom: 35px;
+}
+
+.phone {
+  color: #283136;
+  text-decoration: none;
+}
+
+.phone:hover {
+  color: #283136;
+  text-decoration: none;
+}
+
+.contacts .button {
+  width: 218px;
+  padding-bottom: 12px;
+}
+
+.map > div {
+  position: relative;
+}
+
+.pointer {
+  position: absolute;
+  left: 565px;
+  top: 37px;
+}
 
 
 /* Main block end */
