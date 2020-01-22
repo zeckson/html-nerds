@@ -45,13 +45,21 @@ h2 {
 
 h3 {
   font-family: "Roboto Bold", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: black;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: "Roboto Bold", Arial, sans-serif;
   font-size: 24px;
   line-height: 30px;
   color: black;
   font-weight: bold;
 }
 
-h4 {
+h5 {
   font-family: "Roboto Bold", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -179,7 +187,7 @@ nav {
   /* word-spacing: 1.25px; */
 }
 
-.types h3 {
+.types h4 {
   margin-top: 20px;
   margin-bottom: 14px;
   text-transform: uppercase;
@@ -223,14 +231,15 @@ nav {
   width: 650px;
 }
 
-.about-left h4 {
+.about-left h5 {
   text-transform: uppercase;
   margin-top: 40px;
+  margin-bottom: 23px;
 }
 
 .about-left ul {
   list-style: none;
-  margin-top: 23px;
+  margin-top: 21px;
   padding-left: 36px;
 }
 
@@ -254,7 +263,7 @@ nav {
   width: 360px;
 }
 
-.about-right h4 {
+.about-right h5 {
   text-transform: uppercase;
   margin-top: 30px;
   margin-left: 17px;
@@ -333,9 +342,10 @@ nav {
   background-color: white;
 }
 
-.contacts h4 {
+.contacts h5 {
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-top: 22px;
   margin-bottom: 23px;
 }
 
@@ -370,5 +380,64 @@ nav {
   top: 37px;
 }
 
-
 /* Main block end */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3px;
+}
+
+.social {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.social li {
+  display: inline-block;
+  margin-right: 7px;
+  margin-top: -3px;
+}
+
+.social-link {
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #e1e1e1;
+}
+
+.social-link img {
+  position: absolute;
+}
+
+.social-link--vk img {
+  left: 27px;
+  top: 31px;
+}
+
+.social-link--fb img {
+  left: 34px;
+  top: 28px;
+}
+
+.social-link--inst img {
+  left: 28px;
+  top: 29px;
+}
+
+.motto {
+  margin-right: 215px;
+  padding-top: 6px;
+}
+
+.motto h3 {
+  margin:0;
+  margin-bottom: 6px;
+}
+
+.motto p {
+  margin:0;
+}
